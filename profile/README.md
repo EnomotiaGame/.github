@@ -8,6 +8,7 @@ Building a game for the web and for phones keeps putting us in front of problems
 
 | Project | What it does |
 |---|---|
+| [cvd-palette](https://github.com/EnomotiaGame/cvd-palette) | Check that a palette can be told apart with colour-vision deficiency, fix it by moving colours as little as possible, and ship colour-blind modes as CSS. No dependencies. |
 | [idempotency](https://github.com/EnomotiaGame/idempotency) | `Idempotency-Key` middleware for Go's `net/http`: a retried request gets the first answer back instead of running twice. Zero-dependency core, PostgreSQL store. |
 | [lockstep-md](https://github.com/EnomotiaGame/lockstep-md) | Multilingual Markdown docs that stay in lockstep: the build fails when a translation drops a paragraph, a row or a section. CLI, Vite plugin, no runtime dependencies. On [npm](https://www.npmjs.com/package/lockstep-md). |
 | [push](https://github.com/EnomotiaGame/push) | Web Push (RFC 8291/8292) and Firebase Cloud Messaging senders for Go, with no dependencies. Every send tells you whether to keep, retry or delete the subscription. |
